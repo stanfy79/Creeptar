@@ -29,8 +29,10 @@ const Sidebar = () => {
         <Link to="/coins">
         <div className="menu-item">Tokens</div>
         </Link>
-        <div className="menu-category">Documentation</div>
+        <div className="menu-category">Docs</div>
+        <a href="https://github.com/stanfy79/Tooling-Data-Dashboard/blob/main/README.md" target="_blank">
         <div className="menu-item">Documentation</div>
+        </a>
         <div className="menu-category">Socials</div>
         <a href="https://github.com/stanfy79" target='_blank'>
         <div className="menu-item"><img src={Github} alt="Github" /></div>

@@ -251,13 +251,18 @@
   height: 100px;
   background-color: #ddd;
   border-radius: 10px;
+  text-align: center;
+  p {
+    font-weight: 600;
+    padding-top: 2rem;
+  }
 }
 
 .details-overview {
   display: flex;
   gap: 20px;
   overflow-x: auto;
-  background-color: #0000001d;
+  background-color: #0000001f;
   width: 95%;
   margin: 2rem auto;
   padding: 2rem 20px;
@@ -328,7 +333,7 @@
   height: 300px;
   margin: 15% auto;
   align-items: center;
-  background: #a5a4a4;
+  background: #b7b7b7;
   display: flex;
   flex-direction: column;
   justify-content: center;

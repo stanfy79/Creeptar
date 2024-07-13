@@ -66,7 +66,7 @@ function Home() {
                     <p>7/3 - 7/9</p>
                     <p>0%</p>
                     <div className="cu-growth-chart">
-                        {/* Placeholder for chart */}
+                        <p>No Data</p>
                     </div>
                     </div>
                 </section>

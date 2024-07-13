@@ -2,7 +2,6 @@
 .sidebar {
     max-width: 300px;
     min-width: 150px;
-    height: 97vh;
     margin:  .5rem auto;
     border-radius: 20px;
     background-color: #000c39;
@@ -25,15 +24,15 @@
   
   .logo {
     margin-bottom: 20px;
-    img {
+    img:nth-child(1) {
       width: 150px;
-      border-radius: 50%;
-      margin-right: 2rem;
+      margin-right: 4rem;
     }
     .close-img {
       width: 35px;
       padding: 5px;
       float: right;
+      border-radius: 50%;
       background-color: #333353;
       transition: all .1s linear;
       &:hover, &:active {
@@ -108,13 +107,8 @@
     .sidebar {
       position: fixed;
       width: 100vw;
-      height: 85vh;
-      z-index: 2;
+      z-index: 3;
       margin: 20px;
       top: 4rem;
-      right: 10px;
-      &:inactive {
-        display: none;
-      }
     }
   }
