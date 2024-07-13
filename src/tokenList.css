@@ -20,8 +20,6 @@
 .token-list-container {
     padding: 0 10px;
     width: 100%;
-    height: 100vh;
-    overflow-y: auto;
     color: black;
     background-color: rgb(220, 235, 248);
 }
