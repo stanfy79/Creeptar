@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+.token-item-list::-webkit-scrollbar {
+    height: 8px;
+    width: 8px;
+  }
+  
+.token-item-list::-webkit-scrollbar-thumb {
+    background: #979797;
+    width: 20%;
+    border-radius: 10px;
+  }
+.token-item-list::-webkit-scrollbar-thumb:hover {
+    background: #000c39;
+  }
+
+.token-list-container {
+    padding: 0 10px;
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+    color: black;
+    background-color: rgb(220, 235, 248);
+}
+.slider-widget-container {
+    height: 44px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background: transparent;
+    border: 1px solid #060505;
+    border-radius: 10px;
+    overflow-y: hidden;
+  }
+.header {
+    
+    h1 {
+        font-weight: 900;
+        font-family: Verdana, sans-serif;
+        transition: all .1s linear;
+        text-decoration: 1px double black;
+        &:hover {
+            transform: scale(0.99);
+        }
+    }
+}
+.token-item-list {
+    overflow-x: auto;
+    position: relative;
+    border-radius: 10px;
+    background-color: #fff;
+    scroll-behavior: smooth;
+    height: 100vh;
+    overflow-y: scroll;
+    margin: 5rem auto;
+}
+.token-list-head {
+    width: 100%;
+    display: flex;
+    top: 0;
+    z-index: 2;
+    position: sticky;
+    background-color: #fff;
+    border-bottom: 2px solid #cbc6c6;
+    div {
+        min-width: 120px;
+        padding: 10px 20px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 12px;
+        margin: 2px;
+        cursor: pointer;
+    }
+    #coin {
+        min-width: 240px;
+        width: 21%;
+    }
+}
+.token-item-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 15px 10px;
+    font-size: 14px;
+    transition: all .3s linear;
+    &:hover {
+        background-color: aliceblue;
+        transform: scale(0.98);
+    }
+    #token-rank {
+        width: 50px;
+        font-family: 'Arial Narrow Bold', sans-serif;
+    }
+}
+.token-logo {
+    padding: 10px;
+    img {
+        width: 35px;
+    }
+}
+.token-title {
+    min-width: 170px;
+    max-width: 170px;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    margin: 5px 10px;
+    #token-name {
+        color: #6e6e6e;
+        font-size: 11px;
+        font-family: 'Arial Narrow Bold', sans-serif;
+    }
+}
+.token-trading-info-container {
+    padding: 0 10px;
+    display: flex;
+    flex-direction: row;
+    div {
+        margin: 0 4px;
+        padding: 10px;
+        width: 110px;
+        font-weight: 500;
+    }
+    #token-high {
+        color: #008624;
+    }
+    #token-low {
+        color: #da0000d9;
+    }
+}

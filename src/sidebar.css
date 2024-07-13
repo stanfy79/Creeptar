@@ -1,0 +1,120 @@
+/* Sidebar.css */
+.sidebar {
+    max-width: 300px;
+    min-width: 150px;
+    height: 97vh;
+    margin:  .5rem auto;
+    border-radius: 20px;
+    background-color: #000c39;
+    color: white;
+    display: flex;
+    font-size: 14px;
+    font-family: Geneva;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: 400;
+    padding: 0 20px;
+  }
+  
+  .sidebar-header {
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .logo {
+    margin-bottom: 20px;
+    img {
+      width: 150px;
+      border-radius: 50%;
+      margin-right: 2rem;
+    }
+    .close-img {
+      width: 35px;
+      padding: 5px;
+      float: right;
+      background-color: #333353;
+      transition: all .1s linear;
+      &:hover, &:active {
+        transform: scale(1.1);
+      }
+    }
+  }
+  
+  .sidebar-menu {
+    flex-grow: 1;
+    overflow-y: auto;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+  }
+  
+  .menu-item {
+    padding: 15px 10px;
+    margin: 5px 0;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    transition: all .2s ease;
+    &::focus .sidebar {
+      display: none;
+    }
+  }
+  
+  .social-img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .menu-item:hover,
+  .menu-item:active {
+    background-color: #3a3a55;
+    padding-left: 20px;
+  }
+  
+  .menu-category {
+    margin-top: 10px;
+    font-size: 0.8em;
+    color: #b0b0b0;
+    padding: 10px 0;
+  }
+  
+  .sidebar-footer {
+    margin-bottom: 5px;
+  }
+  
+  .feedback-button {
+    width: 100%;
+    padding: 10px;
+    margin: 2rem 0;
+    background-color: #12255f;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .feedback-button:hover {
+    background-color: #091845;
+  }
+  
+  
+
+
+  @media screen and (max-width: 834px) {
+    .sidebar {
+      position: fixed;
+      width: 100vw;
+      height: 85vh;
+      z-index: 2;
+      margin: 20px;
+      top: 4rem;
+      right: 10px;
+      &:inactive {
+        display: none;
+      }
+    }
+  }
