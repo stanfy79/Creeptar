@@ -1,6 +1,6 @@
-# Creeptar Dashboard
+# Creeptar
 
-Welcome to the Creeptar dashboard repository!
+Welcome to the Creeptar repository!
 
 This repository contains the source code for a website that embeds a crypto data widget, provides market data for various crypto coins, and displays real-time chart data for Solana (SOL). This README provides instructions on how to build and launch the application.
 
@@ -26,12 +26,12 @@ To install the application, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/stanfy79/Tooling-Data-Dashboard
+    git clone https://github.com/stanfy79/Creeptar
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd tooling-data-dashboard
+    cd Creeptar
     ```
 
 3. Install the dependencies:
