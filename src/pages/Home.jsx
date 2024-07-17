@@ -18,8 +18,8 @@ function Home() {
                 <header className="header">
                     <h1>Welcome To Creeptar</h1>
                     <div className="header-buttons">
-                        <a href="/coins">
-                            <button className="view-apps-button">View all</button>
+                        <a href="https://github.com/stanfy79/Creeptar">
+                            <button className="view-apps-button">Creepert GitHub Repo</button>
                         </a>
                     </div>
                 </header>
