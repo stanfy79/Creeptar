@@ -19,7 +19,7 @@ function Home() {
                     <h1>Welcome To Creeptar</h1>
                     <div className="header-buttons">
                         <a href="https://github.com/stanfy79/Creeptar">
-                            <button className="view-apps-button">Creepert GitHub Repo</button>
+                            <button className="view-apps-button">View Creeptar GitHub Repository</button>
                         </a>
                     </div>
                 </header>
