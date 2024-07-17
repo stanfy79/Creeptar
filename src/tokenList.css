@@ -51,8 +51,6 @@
     border-radius: 10px;
     background-color: #fff;
     scroll-behavior: smooth;
-    height: 100vh;
-    overflow-y: scroll;
     margin: 5rem auto;
 }
 .token-list-head {
