@@ -83,6 +83,7 @@
   padding: 20px;
   border-radius: 20px;
   position: relative;
+  color: #ffffff;
   background-color: #000c39;
 }
 
@@ -94,7 +95,7 @@
 }
 
 .network {
-  background-color: #ffffff;
+  background: #ffffff;
   color: #000000;
   padding: 5px 10px;
   border-radius: 10px;
@@ -138,6 +139,7 @@
   display: flex;
   padding: 20px;
   flex-flow: row wrap;
+  background: #ffffff;
   justify-content: space-around;
 }
 
@@ -307,6 +309,7 @@
   button {
     background: linear-gradient(to right, #130b13, #34003a);
     outline: navy;
+    color: #ffffff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     &:hover {
       background: linear-gradient(to right, #002024, #4b0000b5);
