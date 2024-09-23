@@ -165,7 +165,7 @@
   margin: 15px 0;
   overflow-y: hidden;
   border-radius: 20px;
-  animation: loading 1s ease-out infinite alternate;
+  animation: 1s ease-out infinite alternate;
   width: 100%;
   box-shadow: 1px 1px 10px #00000020, -1px -1px 10px #00000018;
   max-width: 500px;
