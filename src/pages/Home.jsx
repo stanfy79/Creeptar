@@ -25,11 +25,11 @@ function Home() {
                 </header>
 
                 <section className="apps-overview">
+                    <iframe src="https://qrcoinwidget.vercel.app" width="100%" height="110px" frameBorder="0" style={{ background: 'transparent' }} title="QR Coin Widget" />
                     <div className="app-card">
                         <div>
                             <SlideTape />
                         </div>
-                        <iframe src="https://qrcoinwidget.vercel.app" width="100%" height="110px" frameBorder="0" style={{ background: 'transparent' }} title="QR Coin Widget" />                    
                         <h2>Flow</h2>
                         <p>9 requests (24h/7)</p>
                         <div className="networks">
