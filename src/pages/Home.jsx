@@ -29,6 +29,7 @@ function Home() {
                         <div>
                             <SlideTape />
                         </div>
+                        <iframe src="https://qrcoinwidget.vercel.app" width="auto" height="110px" frameborder="0"></iframe>
                         <h2>Flow</h2>
                         <p>9 requests (24h/7)</p>
                         <div className="networks">
